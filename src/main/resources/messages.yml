@@ -1,0 +1,27 @@
+# Market status
+market-closed: "&cThe market is closed! Opens from &6%start% &cto &6%end% &c(%market_status%)"
+market-open: "&aThe market is open! Closes in &e%day%d %hour%h %minute%m %sec%s &c(%market_status%)"
+
+# Admin actions
+item-added: "&aItem &6%item% &ahas been added to the market!"
+item-removed: "&cItem &6%item% &chas been removed from the market."
+reload-success: "&aNightMarket reloaded successfully."
+
+# Permissions & usage
+no-permission: "&cYou do not have permission to perform this action."
+only-players: "&cOnly players can execute this command."
+additem-usage: "&cUsage: /nightmarket additem <chance> <stockMin> <stockMax> <price>"
+
+# Player purchase & GUI
+purchase-success: "&aYou purchased &6%item% &afor &e%price% &7(%player_bought%/%player_limit%)"
+purchase-limit: "&cYou have reached the purchase limit for &6%item% &7(%player_bought%/%player_limit%)"
+out-of-stock: "&cSorry, &6%item% &cis out of stock."
+insufficient-funds: "&cYou don't have enough money! Price: &e%price%"
+purchase-cooldown: "&cYou cannot buy &6%item% &cfor another &e%day%d %hour%h %minute%m %sec%s &c(%status%)"
+
+# GUI placeholders
+gui-title: "&6NightMarket &7Page %page%/%max_page%"
+gui-item-stock: "&7Stock: &a%stock%"
+gui-item-price: "&7Price: &e%price%"
+gui-item-bought: "&7Bought: &e%player_bought%/%player_limit%"
+gui-item-cooldown: "&7Cooldown: &e%day%d %hour%h %minute%m %sec%s &7(%status%)"

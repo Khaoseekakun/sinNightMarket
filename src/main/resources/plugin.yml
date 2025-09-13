@@ -1,0 +1,14 @@
+name: sinNightMarket
+main: org.sinNightMarket.SinNightMarket
+version: 1.0.0
+api-version: 1.21
+commands:
+  nightmarket:
+    description: Opens NightMarket GUI
+    usage: /<command>
+    permission: nightmarket.use
+permissions:
+  nightmarket.use:
+    default: true
+  nightmarket.admin:
+    default: op

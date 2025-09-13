@@ -1,0 +1,5 @@
+market:
+  start: "20:00"
+  end: "23:00"
+  items-per-page: 9
+  per-player-limit: 20
