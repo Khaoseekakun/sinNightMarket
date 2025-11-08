@@ -2,6 +2,7 @@ name: sinNightMarket
 main: org.sinNightMarket.SinNightMarket
 version: 1.0.0
 api-version: 1.21
+depend: [NBTAPI]
 commands:
   nightmarket:
     description: Opens NightMarket GUI
